@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Anon Homes is the best construction company in Attingal, Trivandrum. We specialize in luxury architecture, construction, and interior design. We turn your ideas into reality.">
+    <meta name="keywords" content="Best Construction Company in Attingal, Trivandrum, Anon Homes, Interior Design, Architecture, Construction">
+    <title>Anon Homes | Best Construction Company in Attingal, Trivandrum | Interior Design</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <img src="images/logo.png" alt="Anon Homes - Best Construction Company in Attingal, Trivandrum" style="height: 40px; margin-right: 10px;">
+            </a>
+            <nav style="display: flex; align-items: center; gap: 2rem;">
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="nav-social" style="display: flex; gap: 1rem;">
+                    <a href="https://www.facebook.com/anonhomes/" target="_blank" rel="noopener noreferrer" class="social-link" style="color: var(--clr-primary);" aria-label="Facebook">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg>
+                    </a>
+                    <a href="https://www.instagram.com/anonhomes" target="_blank" rel="noopener noreferrer" class="social-link" style="color: var(--clr-primary);" aria-label="Instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                    </a>
+                    <a href="https://www.youtube.com/@anonhomes" target="_blank" rel="noopener noreferrer" class="social-link" style="color: var(--clr-primary);" aria-label="YouTube">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg>
+                    </a>
+                </div>
+            </nav>
+            <div class="mobile-menu-btn" id="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Menu -->
+    <div class="mobile-nav" id="mobile-nav">
+        <ul class="mobile-nav-links">
+            <li><a href="#home" class="mobile-link">Home</a></li>
+            <li><a href="#about" class="mobile-link">About Us</a></li>
+            <li><a href="#services" class="mobile-link">Services</a></li>
+            <li><a href="#projects" class="mobile-link">Projects</a></li>
+            <li><a href="#contact" class="mobile-link">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero section">
+        <div class="hero-overlay"></div>
+        <div class="hero-content fade-in-up">
+            <p class="hero-tagline">Since 2015</p>
+            <h1 class="hero-title">We turn your ideas into <span class="highlight-text">Reality</span></h1>
+            <p class="hero-subtitle">The Best Construction Company in Attingal, Trivandrum. We provide luxurious and innovative homes, commercial buildings, and interior design tailored to your unique lifestyle.</p>
+            <div class="hero-buttons" style="display: flex; gap: 15px; flex-wrap: wrap; margin-top: 20px;">
+                <a href="#projects" class="btn btn-primary">Explore Our Work</a>
+                <a href="tel:+918086000373" class="btn btn-outline" style="background-color: var(--clr-white); color: var(--clr-primary); display: flex; align-items: center; gap: 8px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.022-3.498-6.82-2.108 1.039c-1.685.83-2.923 2.102-3.563 3.666-1.579 3.864 1.761 10.375 5.589 13.916 3.626 3.355 9.429 5.86 13.064 3.993 1.488-.763 2.62-2.071 3.253-3.76l-4.626-2.234z"/></svg>
+                    Call Now
+                </a>
+                <a href="https://wa.me/918086000373" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="background-color: #25D366; color: white; border-color: #25D366; display: flex; align-items: center; gap: 8px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.88-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.347-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.876 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+                    WhatsApp Us
+                </a>
+                <a href="mailto:anonhomes@gmail.com" class="btn btn-outline" style="background-color: #EA4335; color: white; border-color: #EA4335; display: flex; align-items: center; gap: 8px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"/></svg>
+                    Email Us
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text slide-in-left">
+                    <h2 class="section-title">A Personal Connection to <span class="highlight-text">Design</span></h2>
+                    <p>As the best construction company in Attingal, Trivandrum, Anon Homes prides itself in surpassing the focus of design by delivering luxurious and innovative homes, interior design, & commercial buildings that directly correlate to our client's needs.</p>
+                    <p>Each project starts with a CONCEPT and each concept is created from a very personal connection with our clients. Our first priority is to take the time to understand the individual needs of each client and apply them throughout the interior design creative process.</p>
+                    <p class="mission-text">The end result is a COLLABORATION of every Anon's team member coming together to CREATE an authentic style and home identity for our clients to cherish for a lifetime.</p>
+                    <div style="display: flex; gap: 15px; flex-wrap: wrap; margin-top: 20px; align-items: center;">
+                        <a href="#contact" class="btn btn-outline" style="margin-top: 0;">Start Your Project</a>
+                        <a href="tel:+918086000373" class="btn btn-outline" style="margin-top: 0; background-color: var(--clr-white); color: var(--clr-primary); display: flex; align-items: center; gap: 8px;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.022-3.498-6.82-2.108 1.039c-1.685.83-2.923 2.102-3.563 3.666-1.579 3.864 1.761 10.375 5.589 13.916 3.626 3.355 9.429 5.86 13.064 3.993 1.488-.763 2.62-2.071 3.253-3.76l-4.626-2.234z"/></svg>
+                            Call Now
+                        </a>
+                        <a href="https://wa.me/918086000373" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="margin-top: 0; background-color: #25D366; color: white; border-color: #25D366; display: flex; align-items: center; gap: 8px;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.88-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.347-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.876 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+                            WhatsApp Us
+                        </a>
+                        <a href="mailto:anonhomes@gmail.com" class="btn btn-outline" style="margin-top: 0; background-color: #EA4335; color: white; border-color: #EA4335; display: flex; align-items: center; gap: 8px;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"/></svg>
+                            Email Us
+                        </a>
+                    </div>
+                </div>
+                <div class="about-image-wrapper slide-in-right">
+                    <div class="glass-card image-card">
+                        <img src="images/about.png" alt="Luxurious living room interior design by Anon Homes in Trivandrum" class="about-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leadership Section -->
+    <section id="leadership" class="leadership section">
+        <div class="container">
+            <div class="leadership-grid">
+                <div class="leadership-image-wrapper fade-in-up">
+                    <div class="glass-card md-image-card">
+                        <img src="images/md.png" alt="Managing Director of Anon Homes, Best Construction Company in Attingal" class="leadership-image">
+                    </div>
+                </div>
+                <div class="leadership-text slide-in-right">
+                    <h2 class="section-title">Meet Our Managing Director</h2>
+                    <h3 class="md-name">Mr SREEJI CHANDRAN</h3>
+                    <p class="md-title">Founder & Managing Director</p>
+                    <p>With over 15 years of experience in Interior and construction, our Managing Director leads Anon Homes with a vision of blending sustainable practices with unparalleled elegance.</p>
+                    <p>Their commitment to excellence ensures that every project not only meets but exceeds the expectations of our discerning clients.</p>
+                    <div style="display: flex; gap: 15px; flex-wrap: wrap; margin-top: 20px; align-items: center;">
+                        <a href="tel:+918086000373" class="btn btn-outline" style="background-color: var(--clr-white); color: var(--clr-primary); display: flex; align-items: center; gap: 8px;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.022-3.498-6.82-2.108 1.039c-1.685.83-2.923 2.102-3.563 3.666-1.579 3.864 1.761 10.375 5.589 13.916 3.626 3.355 9.429 5.86 13.064 3.993 1.488-.763 2.62-2.071 3.253-3.76l-4.626-2.234z"/></svg>
+                            Call Now
+                        </a>
+                        <a href="https://wa.me/918086000373" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="background-color: #25D366; color: white; border-color: #25D366; display: flex; align-items: center; gap: 8px;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.88-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.347-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.876 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+                            WhatsApp Us
+                        </a>
+                        <a href="mailto:anonhomes@gmail.com" class="btn btn-outline" style="background-color: #EA4335; color: white; border-color: #EA4335; display: flex; align-items: center; gap: 8px;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"/></svg>
+                            Email Us
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+        <div class="container">
+            <div class="section-header text-center fade-in-up">
+                <h2 class="section-title">Our Services</h2>
+                <p class="section-subtitle">Comprehensive solutions for your dream spaces.</p>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Construction -->
+                <div class="service-card glass-panel zoom-in" style="transition-delay: 50ms;">
+                    <img src="images/service_construction.png" alt="Construction" class="service-image">
+                    <div class="service-content">
+                        <h3>Construction</h3>
+                        <p>From ground up to glorious finish, we offer end-to-end construction services that guarantee structural integrity, premium materials, and timely delivery for your dream home or commercial space.</p>
+                    </div>
+                </div>
+                
+                <!-- Renovation -->
+                <div class="service-card glass-panel zoom-in" style="transition-delay: 100ms;">
+                    <img src="images/service_renovation.png" alt="Renovation" class="service-image">
+                    <div class="service-content">
+                        <h3>Renovation</h3>
+                        <p>Breathe new life into your existing space. Our renovation services seamlessly blend modern aesthetics with your home's original character, upgrading both functionality and style.</p>
+                    </div>
+                </div>
+
+                <!-- Budget Homes -->
+                <div class="service-card glass-panel zoom-in" style="transition-delay: 150ms;">
+                    <img src="images/service_budget.png" alt="Budget Homes" class="service-image">
+                    <div class="service-content">
+                        <h3>Budget Homes</h3>
+                        <p>Affordable luxury is possible. We specialize in designing and building beautiful, cost-effective homes without ever compromising on quality, safety, or design.</p>
+                    </div>
+                </div>
+
+                <!-- Modular Kitchen -->
+                <div class="service-card glass-panel zoom-in" style="transition-delay: 200ms;">
+                    <img src="images/service_kitchen.png" alt="Modular Kitchen" class="service-image">
+                    <div class="service-content">
+                        <h3>Modular Kitchen</h3>
+                        <p>The heart of your home deserves the best. We create sleek, highly functional modular kitchens customized to fit your cooking style and storage needs perfectly.</p>
+                    </div>
+                </div>
+
+                <!-- Landscaping -->
+                <div class="service-card glass-panel zoom-in" style="transition-delay: 250ms;">
+                    <img src="images/service_landscape.png" alt="Landscaping" class="service-image">
+                    <div class="service-content">
+                        <h3>Landscaping</h3>
+                        <p>Extend your living space to the outdoors. Our landscaping experts design lush, sustainable gardens and outdoor environments that complement your architecture.</p>
+                    </div>
+                </div>
+
+                <!-- Interior Designing -->
+                <div class="service-card glass-panel zoom-in" style="transition-delay: 300ms;">
+                    <img src="images/service_interior.png" alt="Interior Designing" class="service-image">
+                    <div class="service-content">
+                        <h3>Interior Design</h3>
+                        <p>Curating spaces that tell your story. Our interior design team focuses on ergonomics, luxury finishes, and bespoke styling to turn any room into a masterpiece.</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="display: flex; gap: 15px; flex-wrap: wrap; margin-top: 40px; align-items: center; justify-content: center; width: 100%;">
+                <a href="tel:+918086000373" class="btn btn-outline" style="background-color: var(--clr-white); color: var(--clr-primary); display: flex; align-items: center; gap: 8px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.022-3.498-6.82-2.108 1.039c-1.685.83-2.923 2.102-3.563 3.666-1.579 3.864 1.761 10.375 5.589 13.916 3.626 3.355 9.429 5.86 13.064 3.993 1.488-.763 2.62-2.071 3.253-3.76l-4.626-2.234z"/></svg>
+                    Call Now
+                </a>
+                <a href="https://wa.me/918086000373" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="background-color: #25D366; color: white; border-color: #25D366; display: flex; align-items: center; gap: 8px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.88-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.347-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.876 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+                    WhatsApp Us
+                </a>
+                <a href="mailto:anonhomes@gmail.com" class="btn btn-outline" style="background-color: #EA4335; color: white; border-color: #EA4335; display: flex; align-items: center; gap: 8px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"/></svg>
+                    Email Us
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section bg-light">
+        <div class="container">
+            <div class="section-header text-center fade-in-up">
+                <h2 class="section-title">A Few of Our Masterpieces</h2>
+                <p class="section-subtitle">A glimpse into a few of our completed projects.</p>
+            </div>
+            
+            <div class="video-grid">
+                <div class="video-container fade-in-up" style="transition-delay: 50ms;">
+                    <iframe src="https://www.youtube-nocookie.com/embed/W3GZdNx5s3M?rel=0" title="Anon Homes Masterpieces 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="video-container fade-in-up" style="transition-delay: 150ms;">
+                    <iframe src="https://www.youtube-nocookie.com/embed/nAjb9vQ6tls?rel=0" title="Anon Homes Masterpieces 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="video-container fade-in-up" style="transition-delay: 250ms;">
+                    <iframe src="https://www.youtube-nocookie.com/embed/yVvc4Wm6e3M?rel=0" title="Anon Homes Masterpieces 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div style="display: flex; gap: 15px; flex-wrap: wrap; margin-top: 40px; align-items: center; justify-content: center; width: 100%;">
+                <a href="tel:+918086000373" class="btn btn-outline" style="background-color: var(--clr-white); color: var(--clr-primary); display: flex; align-items: center; gap: 8px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.022-3.498-6.82-2.108 1.039c-1.685.83-2.923 2.102-3.563 3.666-1.579 3.864 1.761 10.375 5.589 13.916 3.626 3.355 9.429 5.86 13.064 3.993 1.488-.763 2.62-2.071 3.253-3.76l-4.626-2.234z"/></svg>
+                    Call Now
+                </a>
+                <a href="https://wa.me/918086000373" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="background-color: #25D366; color: white; border-color: #25D366; display: flex; align-items: center; gap: 8px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.88-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.347-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.876 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+                    WhatsApp Us
+                </a>
+                <a href="mailto:anonhomes@gmail.com" class="btn btn-outline" style="background-color: #EA4335; color: white; border-color: #EA4335; display: flex; align-items: center; gap: 8px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"/></svg>
+                    Email Us
+                </a>
+            </div>        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="reviews section">
+        <div class="container">
+            <div class="section-header text-center fade-in-up">
+                <h2 class="section-title">What Our Clients Say</h2>
+                <div class="overall-rating" style="margin-bottom: 10px; font-size: 1.5rem; font-weight: bold; display: flex; align-items: center; justify-content: center; gap: 10px; flex-wrap: wrap;">
+                    4.9 
+                    <div class="stars" style="display: inline-block;">
+                        <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+                    </div> 
+                    <span style="font-size: 1.1rem; font-weight: normal; color: var(--clr-dark);">(76 reviews)</span>
+                </div>
+            </div>
+            
+            <div class="reviews-slider-container fade-in-up">
+                <button class="slider-btn prev-btn" id="prev-review" aria-label="Previous Review">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
+                </button>
+                
+                <div class="reviews-slider" id="reviews-slider">
+                    <!-- Review 1 -->
+                    <div class="review-card glass-panel">
+                        <div class="review-header">
+                            <div class="reviewer-initial" style="background-color: #4285F4;">G</div>
+                            <div class="reviewer-info">
+                                <h4>Gowri Suresh</h4>
+                                <div class="stars">
+                                    <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+                                </div>
+                            </div>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" alt="Google Logo" class="google-logo">
+                        </div>
+                        <p class="review-text">"From the initial planning stages to the final handover the team was professional, transparent, and highly skilled. If you are looking for a reliable and quality-focused construction company, I highly recommend Anon Homes💙"</p>
+                    </div>
+                    
+                    <!-- Review 2 -->
+                    <div class="review-card glass-panel">
+                        <div class="review-header">
+                            <div class="reviewer-initial" style="background-color: #34A853;">S</div>
+                            <div class="reviewer-info">
+                                <h4>Sunil Vincent</h4>
+                                <div class="stars">
+                                    <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+                                </div>
+                            </div>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" alt="Google Logo" class="google-logo">
+                        </div>
+                        <p class="review-text">"നൈസ് കമ്പനി & വണ്ടർഫുൾ cordination"</p>
+                    </div>
+                    
+                    <!-- Review 3 -->
+                    <div class="review-card glass-panel">
+                        <div class="review-header">
+                            <div class="reviewer-initial" style="background-color: #FBBC05;">A</div>
+                            <div class="reviewer-info">
+                                <h4>Afsal.N</h4>
+                                <div class="stars">
+                                    <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+                                </div>
+                            </div>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" alt="Google Logo" class="google-logo">
+                        </div>
+                        <p class="review-text">"Nice work🥰"</p>
+                    </div>
+                    
+                     <!-- Review 4 -->
+                    <div class="review-card glass-panel">
+                        <div class="review-header">
+                            <div class="reviewer-initial" style="background-color: #EA4335;">M</div>
+                            <div class="reviewer-info">
+                                <h4>Manju GK</h4>
+                                <div class="stars">
+                                    <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+                                </div>
+                            </div>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" alt="Google Logo" class="google-logo">
+                        </div>
+                        <p class="review-text">"Creative construction,experienced engineers and no compermise in quality"</p>
+                    </div>
+                    
+                    <!-- Review 5 -->
+                    <div class="review-card glass-panel">
+                        <div class="review-header">
+                            <div class="reviewer-initial" style="background-color: #673AB7;">s</div>
+                            <div class="reviewer-info">
+                                <h4>shiju basil</h4>
+                                <div class="stars">
+                                    <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+                                </div>
+                            </div>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" alt="Google Logo" class="google-logo">
+                        </div>
+                        <p class="review-text">"Best construction team in attingal..."</p>
+                    </div>
+
+                    <!-- Review 6 -->
+                    <div class="review-card glass-panel">
+                        <div class="review-header">
+                            <div class="reviewer-initial" style="background-color: #E91E63;">S</div>
+                            <div class="reviewer-info">
+                                <h4>Shamna Basheer</h4>
+                                <div class="stars">
+                                    <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+                                </div>
+                            </div>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" alt="Google Logo" class="google-logo">
+                        </div>
+                        <p class="review-text">"Anon homes made my dream come true with their true dedication and hardwork and it exceeded my expectation..Thanks Sreeji and your team for giving me my wonderful home🏠"</p>
+                    </div>
+                </div>
+                
+                <button class="slider-btn next-btn" id="next-review" aria-label="Next Review">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+                </button>
+            </div>
+
+            <div style="display: flex; gap: 15px; flex-wrap: wrap; margin-top: 40px; align-items: center; justify-content: center; width: 100%;">
+                <a href="tel:+918086000373" class="btn btn-outline" style="background-color: var(--clr-white); color: var(--clr-primary); display: flex; align-items: center; gap: 8px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.022-3.498-6.82-2.108 1.039c-1.685.83-2.923 2.102-3.563 3.666-1.579 3.864 1.761 10.375 5.589 13.916 3.626 3.355 9.429 5.86 13.064 3.993 1.488-.763 2.62-2.071 3.253-3.76l-4.626-2.234z"/></svg>
+                    Call Now
+                </a>
+                <a href="https://wa.me/918086000373" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="background-color: #25D366; color: white; border-color: #25D366; display: flex; align-items: center; gap: 8px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.88-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.347-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.876 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+                    WhatsApp Us
+                </a>
+                <a href="mailto:anonhomes@gmail.com" class="btn btn-outline" style="background-color: #EA4335; color: white; border-color: #EA4335; display: flex; align-items: center; gap: 8px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"/></svg>
+                    Email Us
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="contact-card glass-panel zoom-in">
+                <div style="text-align: center; margin-bottom: 3rem;">
+                    <h2 class="section-title" style="margin-bottom: 0.5rem;">Let's build your dream.</h2>
+                    <p>Our mission is to build sustainable environments that enhance people's lives. Reach out to us to begin your journey.</p>
+                </div>
+                <div class="contact-grid">
+                    <!-- Left Side: Contact Info -->
+                    <div class="contact-info" style="text-align: center; display: flex; flex-direction: column; justify-content: center; height: 100%;">
+                        <div class="contact-details" style="display: flex; flex-direction: column; gap: 1.5rem; text-align: left; margin: 0 auto; max-width: 350px; width: 100%;">
+                            <div class="contact-item" style="display: flex; align-items: flex-start; gap: 10px;">
+                                <span class="contact-icon">📍</span>
+                                <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 8px;">
+                                    <p style="margin: 0;"><a href="https://www.google.com/maps/search/?api=1&query=Anon+home+,+Near+Govt+ITI+,+Attingal+P+O+,+Thiruvananthapuram+695101" target="_blank" rel="noopener noreferrer" class="location-link">Anon Homes, Near Govt ITI, Attingal P O, Thiruvananthapuram 695101</a></p>
+                                    <a href="https://www.google.com/maps/dir/?api=1&destination=Anon+home+,+Near+Govt+ITI+,+Attingal+P+O+,+Thiruvananthapuram+695101" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="padding: 6px 12px; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 5px; background-color: var(--clr-primary); color: white; text-decoration: none; border-radius: 5px;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M21.94 10.51l-9.45-9.45a2.12 2.12 0 0 0-3 0l-9.45 9.45a2.12 2.12 0 0 0 0 3l9.45 9.45a2.12 2.12 0 0 0 3 0l9.45-9.45a2.12 2.12 0 0 0 0-3zM14 14.5a1 1 0 0 1-2 0v-2h-3v3a1 1 0 0 1-2 0v-4a1 1 0 0 1 1-1h4v-2a1 1 0 0 1 1.71-.71l3 3a1 1 0 0 1 0 1.42l-3 3A1 1 0 0 1 14 14.5z"/></svg>
+                                        Get Directions
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-icon">📞</span>
+                                <p>+91 8086000373, +91 8547824377</p>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-icon">✉️</span>
+                                <p>anonhomes@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Side: Contact Form -->
+                    <div class="contact-form-container" style="background: var(--glass-bg); padding: 2rem; border-radius: 16px; border: 1px solid var(--glass-border); box-shadow: 0 10px 30px rgba(0,0,0,0.05);">
+                        <h3 style="margin-bottom: 1.5rem; color: var(--clr-primary);">Enquire Now</h3>
+                        <form id="whatsappForm" onsubmit="sendWhatsApp(event)" class="contact-form">
+                            <div class="form-group">
+                                <input type="text" id="waName" class="form-control" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" id="waPhone" class="form-control" placeholder="Your Phone Number" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="waMessage" class="form-control" placeholder="Your Requirements" rows="4" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary" style="width: 100%; display: flex; align-items: center; justify-content: center; gap: 10px; background-color: #25D366; border-color: #25D366; color: white;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.88-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.347-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.876 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+                                Send via WhatsApp
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+                <div style="display: flex; gap: 15px; flex-wrap: wrap; justify-content: center; width: 100%; margin-top: 3rem;">
+                    <a href="https://www.facebook.com/anonhomes/" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="background-color: #1877F2; color: white; border-color: #1877F2; display: flex; align-items: center; justify-content: center; gap: 8px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg>
+                        Facebook
+                    </a>
+                    <a href="https://www.instagram.com/anonhomes" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="background-color: #E4405F; color: white; border-color: #E4405F; display: flex; align-items: center; justify-content: center; gap: 8px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                        Instagram
+                    </a>
+                    <a href="https://www.youtube.com/@anonhomes" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="background-color: #FF0000; color: white; border-color: #FF0000; display: flex; align-items: center; justify-content: center; gap: 8px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg>
+                        YouTube
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2026 Anon Homes - Attingal, Trivandrum. All Rights Reserved. Designed and Developed by 92model.in</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
